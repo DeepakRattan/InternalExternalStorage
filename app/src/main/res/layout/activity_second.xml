@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ae00ff"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnLoadInternal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Load Internal"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnLoadCache"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Load Cache"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnReadExternal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ReadExternal"
+        android:textSize="30sp" />
+
+
+    <TextView
+        android:id="@+id/txtData"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+</LinearLayout>
